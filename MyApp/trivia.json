@@ -1,0 +1,267 @@
+[
+    {
+        "id": 1,
+        "question": "I North Andover, Massachusetts er det ulovlig å være bevæpnet med hvilket våpen?",
+        "answer": "En rom-pistol",
+        "wrong": [
+            "En revolver",
+            "En hammer",
+            "En kniv"
+        ],
+        "book": 1,
+        "hint": "Si-fi."
+    },
+    {
+        "id": 2,
+        "question": "Hvor må de hjemløse være etter klokken 22.00 ifølge Russisk lovgivning? ",
+        "answer": "Hjemme",
+        "wrong": [
+            "Hos familie",
+            "I Aresten",
+            "På herberg"
+        ],
+        "book": 1,
+        "hint": "Borte bra men ... Best"
+    },
+    {
+        "id": 3,
+        "question": "Hvilket yrke har personer som er oftest for sent ute til legetimer?",
+        "answer": "Leger",
+        "wrong": [
+            "Postmann",
+            "Frisør",
+            "Farmasøyt"
+        ],
+        "book": 1,
+        "hint": "Healer"
+    },
+    {
+        "id": 4,
+        "question": "På søndager i Columbus, Ohio er det ulovlig å selge hva?",
+        "answer": "Cornflakes",
+        "wrong": [
+            "Alkohol",
+            "Våpen",
+            "Bønnebøker"
+        ],
+        "book": 1,
+        "hint": "Frokost"
+    },
+    {
+        "id": 5,
+        "question": "Hva fikk Jacob German som verdens første i New York i 1899?",
+        "answer": "En fartsbot",
+        "wrong": [
+            "Nobels Fredspris",
+            "Universitetsgrad",
+            "Strøm"
+        ],
+        "book": 1,
+        "hint": "Bryter regel"
+    },
+    {
+        "id": 6,
+        "question": "Hva er ulovlig å gjøre på et hotellrom i California?",
+        "answer": "Å skrelle en løk",
+        "wrong": [
+            "Å be til gud",
+            "Å høre på musikk etter 18.00",
+            "Å danse"
+        ],
+        "book": 1,
+        "hint": "Får deg til å gråte."
+    },
+    {
+        "id": 7,
+        "question": "Hvilken Randy Newman-sang er ulovlig å spille i Maryland?",
+        "answer": "Short People",
+        "wrong": [
+            "Long People",
+            "Smart People",
+            "Stupid People"
+        ],
+        "book": 1,
+        "hint": "Dverg."
+    },
+    {
+        "id": 8,
+        "question": "Hva er ulovlig å gjøre i Israel på en lørdag?",
+        "answer": "Å pille seg i nesen",
+        "wrong": [
+            "Se film",
+            "Snakke med din kone",
+            "Arrangere et møte"
+        ],
+        "book": 1,
+        "hint": "Ufint"
+    },
+    {
+        "id": 9,
+        "question": "Hva skjer i gjennomsnitt hvert 12’ sekund i den amerikanske hotellkjeden Holiday Inn?",
+        "answer": "Noen stjeler et håndkle",
+        "wrong": [
+            "Noen trykker på brannalarmen",
+            "Noen tisser i senga",
+            "Noen stikker uten å betale"
+        ],
+        "book": 1,
+        "hint": "På badet."
+    },
+    {
+        "id": 10,
+        "question": "I 1992, hva ble 2421 amerikanske personer skadet i hjemmet av?",
+        "answer": "Husplanter",
+        "wrong": [
+            "Badekar",
+            "Kjøleskap",
+            "Meloner"
+        ],
+        "book": 1,
+        "hint": "må ha vann."
+    },
+    {
+        "id": 11,
+        "question": "Hvis du har på deg en svømmedrakt offentlig i Florida, hva er det du ikke har lov til?",
+        "answer": "Å synge",
+        "wrong": [
+            "Løpe",
+            "Danse",
+            "Selge blader"
+        ],
+        "book": 1,
+        "hint": "Låter bra"
+    },
+    {
+        "id": 12,
+        "question": "Hva er det som er ulovlig å gjøre under vann i Vermont?",
+        "answer": "Å plystre",
+        "wrong": [
+            "Le",
+            "Fise",
+            "Å klappe"
+        ],
+        "book": 1,
+        "hint": "Sound."
+    },
+    {
+            "id": 13,
+            "question": "Who nearly killed Harry while trying to save him?",
+            "answer": "Dobby",
+            "wrong": [
+                "Griphook",
+                "Peeves",
+                "Mr. Weasley's Car"
+            ],
+            "book": 2,
+            "hint": "He is a house elf."
+        },
+        {
+            "id": 14,
+            "question": "Where did Harry go on his first trip with Floo Powder?",
+            "answer": "Knockturn Alley",
+            "wrong": [
+                "Diagon Alley",
+                "Platform 9 and 3/4",
+                "Hogwarts"
+            ],
+            "book": 2,
+            "hint": "A place you wouldn't want to be seen."
+        },
+        {
+            "id": 15,
+            "question": "What came out of Ron's mouth after his curse on Malfoy backfired?",
+            "answer": "Slugs",
+            "wrong": [
+                "Snails",
+                "Escargot",
+                "Chicken Alfredo"
+            ],
+            "book": 2,
+            "hint": "Like snails, but worse."
+        },
+        {
+            "id": 16,
+            "question": "Why did Hermione have a mirror when she got petrified?",
+            "answer": "She knew the Basilisk doesn't kill you if you only see its reflection.",
+            "wrong": [
+                "She was on her way to a Hogwarts fashion show.",
+                "She wanted to see if she was a vampire.",
+                "She's the Hogwarts janitor and happened to find it on the floor."
+            ],
+            "book": 2,
+            "hint": "Big yellow eyes."
+        },
+        {
+            "id": 17,
+            "question": "What advice does Lockhart give Harry while they're answering his fan mail?",
+            "answer": "Celebrity is as celebrity does.",
+            "wrong": [
+                "A smile and a memory charm goes a long way.",
+                "Instead of doing something halfway and failing, let someone else do it all the way and then take the credit.",
+                "Fame and lying go hand in hand."
+            ],
+            "book": 2,
+            "hint": "Something about being famous."
+        },
+        {
+                "id": 18,
+                "question": "How many times did Wendelin the Weird allow herself to be caught by medieval witch hunters?",
+                "answer": "47",
+                "wrong": [
+                    "48",
+                    "43",
+                    "44"
+                ],
+                "book": 3,
+                "hint": "In the high 40s."
+            },
+            {
+                "id": 19,
+                "question": "What did Professor Trelawney see in Harry's tea leaves?",
+                "answer": "The grim",
+                "wrong": [
+                    "The gruel",
+                    "The grotesque",
+                    "The hippogriff"
+                ],
+                "book": 3,
+                "hint": "A black dog that means death."
+            },
+            {
+                "id": 20,
+                "question": "What guards the wizard prison, Azkaban?",
+                "answer": "Dementors",
+                "wrong": [
+                    "A sphinx",
+                    "Dragons",
+                    "Hippogriffs"
+                ],
+                "book": 3,
+                "hint": "Tall black-hooded creatures."
+            },
+            {
+                "id": 21,
+                "question": "What broomstick did Harry get for Christmas?",
+                "answer": "Firebolt",
+                "wrong": [
+                    "Thunderbolt",
+                    "Nimbus 2002",
+                    "Dragon's Tail"
+                ],
+                "book": 3,
+                "hint": "Something warm"
+            },
+            {
+                "id": 22,
+                "question": "What place do the residents of Hogsmeade claim is haunted?",
+                "answer": "The Shrieking Shack",
+                "wrong": [
+                    "The Cackling Cafe",
+                    "The Lifeless Lighthouse",
+                    "The Mysterious Motel"
+                ],
+                "book": 3,
+                "hint": "The place Professor Lupin used to use to change into a werewolf."
+            },
+
+]

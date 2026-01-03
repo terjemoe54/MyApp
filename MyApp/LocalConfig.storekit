@@ -1,0 +1,84 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "7AD3A1EF",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "F960D7C9",
+      "localizations" : [
+        {
+          "description" : "Unlock KT2 Questions",
+          "displayName" : "KT2 Questions",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "kt2",
+      "referenceName" : "KT2",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "30379E5F",
+      "localizations" : [
+        {
+          "description" : "Unlock KT3 Questions",
+          "displayName" : "KT3 Questions",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "kt3",
+      "referenceName" : "KT3",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "24B04449",
+      "localizations" : [
+        {
+          "description" : "Unlock KT4 Questions",
+          "displayName" : "KT4 Questions",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "kt4",
+      "referenceName" : "KT4",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
