@@ -1,16 +1,14 @@
 //
 //  Constants.swift
-//  MyApp
-// 
+//  MyQuizApp
+//
 //  Created by Terje Moe on 03/01/2026.
 //
-
 import Foundation
 import SwiftUI
 
 enum Constants {
     static let hpFont = "Cochin"
-    
     
     static let previewQuestion = try! JSONDecoder().decode([Question].self, from: Data(contentsOf: Bundle.main.url(forResource: "trivia", withExtension: "json")!))[0]
      

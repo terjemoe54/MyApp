@@ -4,22 +4,20 @@
 //
 //  Created by Terje Moe on 03/01/2026.
 //
-
 import SwiftUI
-
 
 struct Settings: View {
     @Environment(\.dismiss) private var dismiss
     @EnvironmentObject private var store: Store
-
+    
     var body: some View {
         ZStack {
             InfoBasckroundImage()
             VStack {
                 Text("Hvilke kategorier vil du ha spørsmål fra?")
-                .font(.title)
-                .multilineTextAlignment(.center)
-                .padding(.top)
+                    .font(.title)
+                    .multilineTextAlignment(.center)
+                    .padding(.top)
                 
                 ScrollView{
                     LazyVGrid(columns: [GridItem(), GridItem()]) {
@@ -47,8 +45,7 @@ struct Settings: View {
                                     store.saveStatus()
                                 }
                             } else if store.books[i] == .inactive {
-                            
-                            
+                                
                                 ZStack(alignment: .bottomTrailing) {
                                     Image("kt\(i+1)")
                                         .resizable()
@@ -68,7 +65,7 @@ struct Settings: View {
                                     store.saveStatus()
                                 }
                             } else {
-                            
+                                
                                 ZStack {
                                     Image("kt\(i+1)")
                                         .resizable()
@@ -92,14 +89,13 @@ struct Settings: View {
                         }
                     }
                     .padding()
-                    
                 }
                 
                 Button("OK") {
                     dismiss()
                 }
                 .doneButtom()
-           }
+            }
             .foregroundStyle(.black)
         }
     }

@@ -16,7 +16,6 @@ enum BookStatus: Codable {
 
 @MainActor
 class Store: ObservableObject {
- //   @Published var books: [BookStatus] = [.active, .active ,.inactive, .locked, .locked, .locked, .locked]
     @Published var books: [BookStatus] = [.active,.inactive, .locked, .locked]
     @Published var products: [Product] = []
     @Published var purchasedIDs = Set<String>()
@@ -28,7 +27,6 @@ class Store: ObservableObject {
     init() {
         updates = watchForUpdates()
     }
-    
     
     func loadProducts() async {
         do {
@@ -45,13 +43,13 @@ class Store: ObservableObject {
             
             switch result {
             case .success(let verificationResult):
-               switch verificationResult {
-               
+                switch verificationResult {
+                    
                 case .unverified(let signedType, let verificationError):
                     print("Error on \(signedType): \(verificationError)")
                     
                 case .verified(let signedType):
-                   purchasedIDs.insert(signedType.productID)
+                    purchasedIDs.insert(signedType.productID)
                 }
                 
             case .userCancelled:
@@ -64,7 +62,6 @@ class Store: ObservableObject {
         } catch {
             print("Could not purcase: \(error)")
         }
-        
     }
     
     func saveStatus() {
@@ -74,7 +71,7 @@ class Store: ObservableObject {
         } catch {
             print("Unable to save data: \(error)")
         }
-     }
+    }
     
     func loadStatus() {
         do {
@@ -85,22 +82,21 @@ class Store: ObservableObject {
         }
     }
     
-   private func checkPurchased() async {
-         for product in products {
-             guard let state = await product.currentEntitlement else { return}
-             
-             switch state {
-             case .unverified(let signedType, let verificationError):
-                 print("Error on \(signedType): \(verificationError)")
-             case .verified(let signedType):
-                 if signedType.revocationDate == nil {
-                     purchasedIDs.insert(signedType.productID)
-                 } else {
-                     purchasedIDs.remove(signedType.productID)
-                 }
-             }
-         }
-        
+    private func checkPurchased() async {
+        for product in products {
+            guard let state = await product.currentEntitlement else { return}
+            
+            switch state {
+            case .unverified(let signedType, let verificationError):
+                print("Error on \(signedType): \(verificationError)")
+            case .verified(let signedType):
+                if signedType.revocationDate == nil {
+                    purchasedIDs.insert(signedType.productID)
+                } else {
+                    purchasedIDs.remove(signedType.productID)
+                }
+            }
+        }
     }
     
     private func watchForUpdates() -> Task<Void, Never> {
@@ -110,5 +106,4 @@ class Store: ObservableObject {
             }
         }
     }
-    
 }

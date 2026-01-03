@@ -4,7 +4,6 @@
 //
 //  Created by Terje Moe on 03/01/2026.
 //
-
 import Foundation
 import SwiftUI
 
@@ -48,10 +47,8 @@ class Game: ObservableObject {
         
         if answeredQuestions.count == filteredQuestions.count {
             answeredQuestions = []
-            
-  // start new game
         }
-            
+        
         var potentialQuestion = filteredQuestions.randomElement()!
         while answeredQuestions.contains(potentialQuestion.id) {
             potentialQuestion = filteredQuestions.randomElement()!
@@ -67,7 +64,7 @@ class Game: ObservableObject {
         answers.shuffle()
         
         questionScore = 5
-
+        
     }
     
     func correct() {
@@ -76,7 +73,7 @@ class Game: ObservableObject {
         withAnimation {
             gameScore += questionScore
         }
-      }
+    }
     
     func endGame() {
         recentScores[2] = recentScores[1]

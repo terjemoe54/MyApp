@@ -4,7 +4,6 @@
 //
 //  Created by Terje Moe on 03/01/2026.
 //
-
 import SwiftUI
 import AVKit
 
@@ -219,9 +218,7 @@ struct GamePlay: View {
                             }
                         }
                     }
-                    
                     Spacer()
-                    
                 }
                 .frame(width: geo.size.width, height: geo.size.height)
                 .foregroundStyle(.white)
@@ -256,7 +253,7 @@ struct GamePlay: View {
                             Text("Storartet!")
                                 .font(.custom(Constants.hpFont, size: 70))
                                 .transition(.scale.combined(with: .offset(y: -geo.size.height/2)))
-                       }
+                        }
                     }
                     .animation(.easeInOut(duration:tappedCorrectAnswer ? 1 : 0).delay(tappedCorrectAnswer ? 1 : 0), value: tappedCorrectAnswer)
                     
@@ -322,8 +319,8 @@ struct GamePlay: View {
                                 .onAppear {
                                     withAnimation(.easeInOut(duration: 1.3).repeatForever()) {
                                         scaleNextButton.toggle()
-                                   }
-                               }
+                                    }
+                                }
                             }
                         }
                     }
