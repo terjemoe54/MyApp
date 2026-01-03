@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  MyApp
 //
-//  Created by Terje Moe on 07/11/2024.
+//  Created by Terje Moe on 03/01/2026.
 //
 
 import SwiftUI
